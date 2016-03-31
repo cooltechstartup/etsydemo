@@ -11,6 +11,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.6'
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
+gem "paperclip-dropbox", ">= 1.1.7"
+gem 'aws-sdk', '~> 2.2.31'
 
 group :development, :test do
   gem 'byebug'
